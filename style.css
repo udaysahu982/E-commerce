@@ -295,12 +295,16 @@ nav .icons{
     font-family: sans-serif;
     font-weight: 700;
 }
+
+
 /* Main 4 start here */
+
+
 .main-4{
     display: flex;
     height: 100vh;
     width: 100%;
-    /* border: 2px solid black; */
+
     background-color: #dde4e4;
     justify-content: center;
     align-items: center;
@@ -328,7 +332,7 @@ nav .icons{
     display: flex;
     height: 70%;
     width: 100%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     justify-content: space-around;
 }
 .main4-child{
@@ -336,6 +340,8 @@ nav .icons{
     height: 100%;
     border: 2px solid #dde4e4;
 }
+    
+
 .main4-img1{
     width: 100%;
     height: 70%;
@@ -344,10 +350,9 @@ nav .icons{
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 50%;
+    
 }
-.main4-img1:hover{
-     transform: scale(1.05);
-}
+
 .main4-img2{
     width: 100%;
     height: 70%;
@@ -383,21 +388,209 @@ nav .icons{
     font-size: 1.3rem;
     font-weight: 100;
     font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
     
 }
 .main4-btn{
     width: 100%;
     height: 20%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .main4-btn button{
     background-color: blueviolet;
+    border: .5px solid blueviolet;
     color: white;
     width: 15vw;
     height: 8vh;
     border-radius: 30px;
     font-size: 1.1rem;
+    cursor: pointer;
+}
+.main4-btn button:hover{
+    background-color: white;
+    color: blueviolet;
+}
+.main4-price{
+    color: blueviolet;
+
+   
+}
+.main4-price span{
+    text-decoration: line-through;
+}
+/* Main 5 starts here */
+.main-5{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dde4e4;
+}
+.main-5 .main5-box{
+    width: 94%;
+    height: 95%;
+   
+    background-color: white;
+}
+.main-5 .main5-box .main5-head{
+    height: 10%;
+    width: 100%;
+   
+    font-size: 2rem;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main5-content{
+    width: 100%;
+    height: 90%;
+
+    flex-direction: column;
+}
+.main5-content1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main5-content2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main5-content1 .main5-child{
+    margin-top: 2vh;
+    width: 18%;
+    height: 95%;
+}
+.main5-content1-img1{
+    width: 100%;
+    height: 75%;
+    border-radius: 50%;
+    background-image: url(image/samsung-lap.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+      cursor: pointer;
+}
+.main5-content1-img2{
+    width: 100%;
+    height: 75%;
+    border-radius: 50%;
+    background-image: url(image/samsung-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+      cursor: pointer;
+}
+.main5-content1-img3{
+   width: 100%;
+    height: 75%;
+    border-radius: 50%;
+    background-image: url(image/drone.png);
+    background-color: black;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+      cursor: pointer;
+}
+.main5-content1-img4{
+   width: 100%;
+    height: 75%;
+    border-radius: 50%;
+     background-image: url(image/tag.png);
+    background-color: blueviolet;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+      cursor: pointer;
+}
+.main5-content1-img5{
+    width: 100%;
+    height: 75%;
+    border-radius: 50%;
+    background-image: url(image/tablet.png);
+    background-color: black;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+      cursor: pointer;
+}
+.main5-content2 .main5-child{
+    margin-top: 2vh;
+    width: 18%;
+    height: 95%;
+  
+
+}
+.main5-child h2{
+    width: 100%;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+     cursor: pointer;
+   
+}
+.main5-content2-img1{
+    width: 100%;
+    height: 75%;
+    border-radius: 50%;
+    background-image: url(image/favorites.png);
+    background-color: blue;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+      cursor: pointer;
+}
+.main5-content2-img2{
+   width: 100%;
+    height: 75%;
+    border-radius: 50%;
+    background-image: url(image/sam-tv.webp);
+    background-color: black;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+      cursor: pointer;
+}
+.main5-content2-img3{
+   width: 100%;
+    height: 75%;
+    border-radius: 50%;
+    background-image: url(image/wearable.png);
+    background-color: black;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+      cursor: pointer;
+}
+.main5-content2-img4{
+   width: 100%;
+    height: 75%;
+    border-radius: 50%;
+    background-image: url(image/speaker.png);
+    background-color: black;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+      cursor: pointer;
+}
+.main5-content2-img5{
+   width: 100%;
+    height: 75%;
+    border-radius: 50%;
+    background-image: url(image/headphones.png);
+    background-color: black;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+      cursor: pointer;
 }
