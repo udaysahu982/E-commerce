@@ -352,7 +352,9 @@ nav .icons{
     border-radius: 50%;
     
 }
-
+.main4-img1:hover{
+    background-size: 104%;
+}
 .main4-img2{
     width: 100%;
     height: 70%;
@@ -361,6 +363,9 @@ nav .icons{
      background-repeat: no-repeat;
     background-size: cover;
     border-radius: 50%;
+}
+.main4-img2:hover{
+    background-size: 104%;
 }
 .main4-img3{
     width: 100%;
@@ -371,6 +376,9 @@ nav .icons{
     background-size: cover;
     border-radius: 50%;
 }
+.main4-img3:hover{
+    background-size: 104%;
+}
 .main4-img4{
     width: 100%;
     height: 70%;
@@ -379,6 +387,9 @@ nav .icons{
      background-repeat: no-repeat;
     background-size: cover;
     border-radius: 50%;
+}
+.main4-img4:hover{
+    background-size: 104%;
 }
 .main4-content{
     flex-direction: column;
@@ -481,6 +492,9 @@ nav .icons{
     background-position: center;
       cursor: pointer;
 }
+.main5-content1-img1:hover{
+    background-size: 140%;
+}
 .main5-content1-img2{
     width: 100%;
     height: 75%;
@@ -490,6 +504,9 @@ nav .icons{
     background-repeat: no-repeat;
     background-position: center;
       cursor: pointer;
+}
+.main5-content1-img2:hover{
+    background-size: 104%;
 }
 .main5-content1-img3{
    width: 100%;
@@ -502,6 +519,9 @@ nav .icons{
     background-position: center;
       cursor: pointer;
 }
+.main5-content1-img3:hover{
+    background-size: 104%;
+}
 .main5-content1-img4{
    width: 100%;
     height: 75%;
@@ -513,6 +533,9 @@ nav .icons{
     background-position: center;
       cursor: pointer;
 }
+.main5-content1-img4:hover{
+    background-size: 104%;
+}
 .main5-content1-img5{
     width: 100%;
     height: 75%;
@@ -523,6 +546,9 @@ nav .icons{
     background-repeat: no-repeat;
     background-position: center;
       cursor: pointer;
+}
+.main5-content1-img5:hover{
+    background-size: 104%;
 }
 .main5-content2 .main5-child{
     margin-top: 2vh;
@@ -550,6 +576,9 @@ nav .icons{
     background-position: center;
       cursor: pointer;
 }
+.main5-content2-img1:hover{
+    background-size: 104%;
+}
 .main5-content2-img2{
    width: 100%;
     height: 75%;
@@ -560,6 +589,9 @@ nav .icons{
     background-repeat: no-repeat;
     background-position: center;
       cursor: pointer;
+}
+.main5-content2-img2:hover{
+    background-size: 104%;
 }
 .main5-content2-img3{
    width: 100%;
@@ -572,6 +604,9 @@ nav .icons{
     background-position: center;
       cursor: pointer;
 }
+.main5-content2-img3:hover{
+    background-size: 104%;
+}
 .main5-content2-img4{
    width: 100%;
     height: 75%;
@@ -583,6 +618,9 @@ nav .icons{
     background-position: center;
       cursor: pointer;
 }
+.main5-content2-img4:hover{
+    background-size: 104%;
+}
 .main5-content2-img5{
    width: 100%;
     height: 75%;
@@ -593,6 +631,9 @@ nav .icons{
     background-repeat: no-repeat;
     background-position: center;
       cursor: pointer;
+}
+.main5-content2-img5:hover{
+    background-size: 95%;
 }
 
 /* Main 6 Starts */
@@ -668,4 +709,342 @@ nav .icons{
 .main6-btn:hover{
     color: blueviolet;
     background-color: white;
+}
+/* Main 7 Starts Here */
+.main-7{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dde4e4;
+}
+.main7-box{
+    width: 94%;
+    height: 97%;
+    background-color: white;
+}
+.main7-head{
+    width: 100%;
+    height: 10%;
+    font-size: 2.3rem;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.main7-content{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main7-child{
+    width: 22%;
+    height: 100%;
+    background-image: url();
+    border: 1px solid #dde4e4;
+    cursor: pointer;
+}
+.main7-img1{
+    width: 100%;
+    height: 70%;
+    background-image: url(image/watch1.avif);
+    background-size: contain;
+    background-position:center;
+    border-radius: 50%;
+}
+.main7-img1:hover{
+    background-size: 104%;
+}
+.main7-img2{
+    width: 100%;
+    height: 70%;
+    background-image: url(image/laptop1.avif);
+    background-size: contain;
+    background-position:center;
+    border-radius: 50%;
+}
+.main7-img2:hover{
+    background-size: 104%;
+}
+.main7-img3{
+    width: 100%;
+    height: 70%;
+    background-image: url(image/phone1.avif);
+    background-size: contain;
+    background-position:center;
+    border-radius: 50%;
+}
+.main7-img3:hover{
+    background-size: 104%;
+}
+.main7-img4{
+    width: 100%;
+    height: 70%;
+    background-image: url(image/glass1.avif);
+    background-size: contain;
+    background-position:center;
+    border-radius: 50%;
+}
+.main7-img4:hover{
+    background-size: 104%;
+}
+.main7-text{
+    width: 100%;
+    height: 30%;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.main7-text p{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.main7-price{
+    color: blueviolet;
+    font-size: 1.3rem;
+}
+.main7-price span{
+    text-decoration: line-through;
+}
+.main7-last{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.main7-btn{
+    display: flex;
+    height: 7vh;
+    width: 13vw;
+    border: 2px solid blueviolet;
+    background-color: blueviolet;
+    font-size: 1rem;
+    font-weight: 30;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.main7-btn:hover{
+    color: blueviolet;
+    background-color: transparent;
+}
+.main-8{
+    width: 100%;
+    height:80vh ;
+    background-color: #dde4e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main8-box{
+    width: 94%;
+    height: 90%;
+    background-color: white;
+    display: flex;
+}
+.main8-content{
+    width: 40%;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+}
+.main8-img{
+    width: 60%;
+    height: 100%;
+    background-image: url(image/drone1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: right;
+    
+}
+.main8-redhead{
+    display:flex;
+    background-color: rgb(202, 23, 23);
+    font-size: 1.4rem;
+    width: 13vw;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-top: 9vh;
+    margin-left: 4vw;
+}
+.main8-text{
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-left: 3.5vw;
+    margin-top: 18px;
+}
+.main8-dis{
+    font-size: 6.5rem;
+    margin-left: 2vw;
+    margin-top: 18px;
+    font-weight: 600;
+}
+.main8-dis span{
+    color: blueviolet;
+}
+.main8-smalltext{
+    font-size: 1.2rem;
+    margin-left: 4vw;
+    margin-top: 18px;
+}
+.main8-last{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main8-btn{
+    width: 12vw;
+    height: 7vh;
+    border: 2px solid blueviolet;
+    background-color: blueviolet;
+    border-radius: 30px;
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.main8-btn:hover{
+    color: blueviolet;
+    background-color: white;
+}
+/* Main 9 Starts here */
+.main-9{
+    width: 100%;
+    height: 50vh;
+    background-color: #dde4e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .main9-box{
+    width: 94%;
+    height: 90%;
+    background-color: white;
+}
+.main9-head{
+    width: 100%;
+    height: 25%;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.main9-content{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main9-child{
+    width: 18%;
+    height: 70%;
+    border: .5px solid #dde4e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    font-weight: 800;
+    color: #dde4e4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Main 10 starts here */
+.main-10{
+    width: 100%;
+    height: 50vh;
+    background-color: #dde4e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main10-box{
+    width: 94%;
+    height: 90%;
+    background-color: rgb(89, 43, 226);
+}
+.main10-head{
+    width: 100%;
+    height: 25%;
+}
+.main10-news{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.main10-text{
+    color: white;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    font: caption;
+    margin-top: 10px;
+}
+.main10-mid{
+    width: 100%;
+    height: 35%;
+    flex-direction: column;
+    display: flex;
+    
+}
+.main10-emailtext{
+    font-size: 1.2rem;
+    margin-left: 26vw;
+    color: white;
+    margin-top: 10px;
+}
+.main10-emailsearch input{
+    width: 30vw;
+    height:7vh;
+    border-radius: 20px;
+    background-color: transparent;
+    border: .5px solid white;
+    margin-right: 20px;
+}
+.main10-emailsearch{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.main10-btn{
+    width: 12vw;
+    height: 7vh;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:30px;
+    cursor: pointer;
+}
+.main10-btn:hover{
+    color: black;
+    background-color: white;
+}
+.main10-bottom{
+    display: flex;
+    padding-left: 26vw;
+    color: white;
+}
+.main10-bottom input{
+    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
 }
