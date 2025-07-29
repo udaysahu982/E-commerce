@@ -1048,3 +1048,200 @@ nav .icons{
     height: 20px;
     cursor: pointer;
 }
+.main-11{
+    width: 100%;
+    height: 60vh;
+    background-color: #dde4e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main11-box{
+    width:94%;
+    height: 90%;
+    background-color: white;
+    display: flex;
+}
+.main11-content{
+    width: 40%;
+    height: 100%;
+    background-color: black;
+}
+.main11-img{
+    width: 60%;
+    height: 100%;
+    background-image: url(image/lapimg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main11-contenthead{
+    width: 100%;
+    height: 40%;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+   padding-top: 10vh;
+    font-weight: bold;
+    color: white;
+}
+.main11-contenttext{
+    width: 100%;
+    height: 20%;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    padding-left: 8.5vw;
+}
+.main11-contentlast{
+    width: 100%;
+    height: 30%;
+}
+.main11-btn{
+    width: 15vw;
+    height: 7vh;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blueviolet;
+    color: blueviolet;
+    margin-left: 8vw;
+    background-color: white;
+    cursor: pointer;
+}
+.main11-btn:hover{
+    color: white;
+    background-color: blueviolet;
+}
+footer{
+    width: 100%;
+    height: 100vh;
+    background-color: #dde4e4;
+    display: flex;
+    justify-content: center;
+    
+}
+.footer-box{
+    width: 94%;
+    height: 90%;
+    background-color: white;
+    
+
+}
+.footer-section-box {
+    display: flex;
+    width: 100%;
+    height: 70%;
+
+}
+.footer-section{ 
+    width: 25%;
+    height: 100%;
+}
+.footer-head{
+    font-size: 1.7rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.footer-text{
+    display: flex;
+    margin-left: 9.1vw;
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+.footer-text a{
+    text-decoration: none;
+    color: black;
+}
+.footer-cs{
+    margin-left:4vw;
+}
+.footer-sl{
+    margin-left: 5vw;
+}
+.footer-icon-box{
+    width: 100%;
+    height: 30%;
+
+}
+.footer-icon-text{ 
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.1rem;
+    align-items: center;
+    font-style: italic;
+   
+}
+.footer-payment-icon{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer-pay-child{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    justify-content: center;
+}
+.pay-icon{
+    width: 5vw;
+    height: 7vh;
+}
+.pay-img1{
+    background-image: url(image/rupay.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.pay-img2{
+    background-image: url(image/americanexpress.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.pay-img3{
+    background-image: url(image/mastercard.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.pay-img4{
+    background-image: url(image/Visa.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.pay-img5{
+    background-image: url(image/paytm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}.pay-img6{
+    background-image: url(image/phonpe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.pay-img7{
+    background-image: url(image/googlepay.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.pay-img8{
+    background-image: url(image/PayPal.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
