@@ -1,0 +1,113 @@
+.login-screen{
+    width: 100%;
+    height: 90vh;
+    background-color: #dde4e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-box{
+    width: 30%;
+    height: 90%;
+    border: 2px solid black;
+    
+}
+.login-box-head{
+    width: 100%;
+    height: 30%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.login-box-head h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+}
+.login-mob-num{
+    width: 100%;
+    height: 60%;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.login-mob-num h2{
+    font-weight: 600;
+    margin-left: 30px;
+    width: 100%;
+    height: 6vh;
+}
+.login-mob-num h2 span{
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 100;
+}
+.login-number-box{
+    width: 80%;
+    height: 5vh;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: white;
+    display: flex;
+}
+.login-number-box-code{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-number-box-text{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.login-number-box-text input{
+    width: 100%;
+    height: 80%;
+    padding-left: 16px;
+    border-style: none;
+    border-left: 2px solid black;
+}
+.login-mob-check{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    width: 100%;
+    height: 9vh;
+}
+.login-mob-check-text{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.login-mob-check-text span{
+    color: red;
+}
+.login-mob-check-box{
+    margin-top: 10px;  
+}
+.login-mob-check-box input {
+    cursor: pointer;;
+}
+.login-mob-btn-box{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.login-mob-btn-box button{
+    width: 85%;
+    height: 6vh;
+    background-color: grey;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.login-mob-btn-box button:hover{
+    background-color: red;
+}

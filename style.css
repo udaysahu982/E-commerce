@@ -61,6 +61,11 @@ nav .icons{
 .usl{
     display: flex;
 }
+nav .icons .usl p a{
+    text-decoration: none;
+    
+
+}
 
 .menu{
     display: flex;
@@ -1070,9 +1075,10 @@ nav .icons{
 .main11-img{
     width: 60%;
     height: 100%;
-    background-image: url(image/lapimg.avif);
+    background-image: url(image/laptop-mic.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 .main11-contenthead{
     width: 100%;
