@@ -63,6 +63,7 @@ nav .icons{
 }
 nav .icons .usl p a{
     text-decoration: none;
+    color: black;
     
 
 }
@@ -320,6 +321,7 @@ nav .icons .usl p a{
     width: 93%;
     /* border: 2px solid black; */
     background-color: white;
+   
 }
 .main4-head{
     display: flex;
@@ -334,16 +336,23 @@ nav .icons .usl p a{
 
 }
 .main4-items{
-    display: flex;
-    height: 70%;
-    width: 100%;
+    display: grid;
+    height: 63vh;
+    width: 85vw;
+    grid-template-columns: repeat(7,20vw);
+    overflow-x: scroll;
     /* border: 2px solid black; */
-    justify-content: space-around;
+    gap: 15px;
+    scrollbar-width: none;
+    margin-left: 60px;
 }
 .main4-child{
-    width: 22%;
+    width: 100%;
     height: 100%;
     border: 2px solid #dde4e4;
+    /* border: 2px solid black; */
+    flex-direction: column;
+    justify-content: center;
 }
     
 
@@ -355,6 +364,7 @@ nav .icons .usl p a{
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 50%;
+     /* border: 2px solid black; */
     
 }
 .main4-img1:hover{
@@ -396,6 +406,43 @@ nav .icons .usl p a{
 .main4-img4:hover{
     background-size: 104%;
 }
+.main4-img5{
+    width: 100%;
+    height: 70%;
+    /* border: 2px solid black; */
+    background-image: url(image/smartwatch.png);
+     background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+.main4-img5:hover{
+    background-size: 104%;
+}
+.main4-img6{
+    width: 100%;
+    height: 70%;
+    /* border: 2px solid black; */
+    background-image: url(image/earbuds.png);
+     background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+.main4-img6:hover{
+    background-size: 104%;
+}
+.main4-img7{
+    width: 100%;
+    height: 70%;
+    /* border: 2px solid black; */
+    background-image: url(image/powerbank.png);
+     background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+.main4-img7:hover{
+    background-size: 104%;
+}
+
 .main4-content{
     flex-direction: column;
     width: 100%;
@@ -1021,6 +1068,8 @@ nav .icons .usl p a{
     background-color: transparent;
     border: .5px solid white;
     margin-right: 20px;
+    padding-left: 20px;
+    
 }
 .main10-emailsearch{
     display: flex;
