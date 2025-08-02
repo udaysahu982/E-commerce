@@ -99,17 +99,23 @@ nav .icons .usl p a{
     display: flex;
     
 }
+@keyframes main-img-change {
+    0% { background-image: url(image/photo4.jpg); }
+     
+      50% { background-image: url(image/bg-img6.jpg); }
+    
+}
 
 #main .main-img{
     display: flex;
     width: 100%;
     height: 80vh;
-    
     background-image: url(image/photo4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right; 
     flex-direction: column;
+    animation: main-img-change 40s infinite linear;
 }
 #main .main-img .red-text{
     display: flex;
@@ -787,14 +793,19 @@ nav .icons .usl p a{
     font-weight: bold;
 }
 .main7-content{
-    width: 100%;
-    height: 70%;
-    display: flex;
-    justify-content: space-evenly;
+    width: 85vw;
+    height: 63vh;
+    display: grid;
+    grid-template-columns: repeat(7,20vw);
+    overflow-x: scroll;
+    gap: 15px;
+    scrollbar-width: none;
+    margin-left: 60px;
 }
 
+
 .main7-child{
-    width: 22%;
+    width: 20vw;
     height: 100%;
     background-image: url();
     border: 1px solid #dde4e4;
@@ -842,6 +853,42 @@ nav .icons .usl p a{
     border-radius: 50%;
 }
 .main7-img4:hover{
+    background-size: 104%;
+}
+.main7-img5{
+    width: 100%;
+    height: 70%;
+    background-image: url(image/milap.png);
+    background-size: contain;
+    background-position:center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+.main7-img5:hover{
+    background-size: 90%;
+}
+.main7-img6{
+    width: 100%;
+    height: 70%;
+    background-image: url(image/gamingpc2.png);
+    background-size: contain;
+    background-position:center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+.main7-img6:hover{
+    background-size: 104%;
+}
+.main7-img7{
+    width: 100%;
+    height: 70%;
+    background-image: url(image/lenovo.png);
+    background-size: contain;
+    background-position:center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+.main7-img7:hover{
     background-size: 104%;
 }
 .main7-text{
