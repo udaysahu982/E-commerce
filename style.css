@@ -35,6 +35,9 @@ header ul li a{
    
 
 }
+header ul li a:hover{
+    color: blue;
+}
 
 nav{
     display: flex;
@@ -161,6 +164,9 @@ nav .icons .usl p a{
     font-weight: 50;
     font-family: sans-serif;
     cursor: pointer;
+}
+#main .main-img a{
+    text-decoration: none;
 }
 
 .main-btn:hover{
