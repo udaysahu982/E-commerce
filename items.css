@@ -85,41 +85,69 @@
     width: 75vw;
     height: 100%;
     /* border: 1px solid black; */
-    flex-direction: column;
-    padding-left: 20px;
+    display: flex;
+    padding-left: 10px;
 }
 .item1-main-right-text{
-    width: 100%;
-    height: 35%;
+    width: 70%;
+    height: 100%;
     /* border: 2px solid red; */
+    padding-top: 10px; 
+}
+.item1-main-right-text-head{
+    width: 100%;
+    height: 20%;
+    /* border: 2px solid black; */
     font-size: 1.7rem;
-    padding-top: 15px;
     
+}
+.item1-main-right-text-list{
+    width: 100%;
+    height: 70%;
+    /* border: 2px solid black; */
+    padding-left: 10px;
+    margin-top: 10px;
+    padding-left: 40px;
+}
+.item1-main-right-text-list ul li{
+    font-size: 20px;
+    padding-top: 12px;
+}
+.item1-main-right-content{
+    width: 30%;
+    height: 100%;
+    border: 2px solid purple;
+    flex-direction: column;
 }
 .item1-main-right-price{
     width: 100%;
-    height: 50%;
-    /* border: 2px solid blue; */
-    display: flex;
+    height: 70%;
+    border: 2px solid blue;
+    flex-direction: column;
     align-items: center;
 }
+.item1-main-right-price sup{
+    font-size: 15px;
+}
 .item1-main-right-price p{
-    width: 18%;
-    height: 40%;
-    font-size: 3rem;
-    /* border: 2px solid black; */
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 100%;
+    height: 30%;
+    font-size: 2rem;
+    border: 2px solid black;
     /* display: flex; */
 }
 .item1-main-right-price  span{
     display: flex;
     font-size: 15px;
-    width: 20%;
-    height: 40%;
+    width: 100%;
+    height: 20%;
     color: gray;
-    /* border: 2px solid black; */
-    align-items: end;
+    border: 2px solid black;
     gap: 10px;
-    align-items: center;
+    padding-left: 30px;
+    
 }
 .item1-main-right-price span  h6{
     text-decoration: line-through;
@@ -127,15 +155,16 @@
 }
 .item1-main-right-btn{
     width: 100%;
-    height: 15%;
+    height: 30%;
     /* border: 2px solid yellow; */
     padding-left: 20px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .item1-main-right-btn button{
-    width: 20%;
-    height: 90%;
+    width: 70%;
+    height: 40%;
     /* border: 2px solid yellow; */
     background-color: rgb(255, 204, 0);
     font-size: 20px;
