@@ -13,13 +13,95 @@
 .item1-main-head{
     width: 99vw;
     height: 6vh;
-    border: 2px solid black;
+    border-top: 2px solid black;
+    background-color: #dde4e4;
 }
 .item1-main-left{
     width: 22vw;
     height: 100%;
-    border-right: 1px solid black;
+    /* border-right: 1px solid black; */
+    background-color: #dde4e4;
+    /* overflow-y: scroll; */
 }
+
+.item1-main-left-head{
+    width: 100%;
+    height: 8vh;
+    border-top: 2px solid black;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    font-weight: 600;
+}
+.item1-main-left-category{
+    width: 100%;
+    height: 47vh;
+    border-top: 3px solid black;
+}
+.item1-main-left-category-head{
+    width: 100%;
+    height: 5vh;
+    border-bottom: 2px solid black;
+    font-size: 1.7rem;
+    font-weight: 600;
+    padding-left: 20px;
+}
+.item1-main-left-category ul li{
+    width: 100%;
+    height: 5vh;
+    border-top: 1px solid black;
+    margin-top: 2px;
+    font-size: 1.4rem;
+    padding-left: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+.item1-main-left-category ul li input{
+    width: 15px;
+}
+
+.item1-main-left-brands{
+    width: 100%;
+    height: 50vh;
+    border-top: 3px solid black;
+    display: grid;
+    grid-template-rows: repeat(8,5vh);
+    gap: 4px;
+}
+.item1-main-left-brand-child{
+    width: 100%;
+    height: 5vh;
+    border-top: 1px solid black;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.item1-main-left-brands-head{
+    width: 100%;
+    height: 5.5vh;
+    font-size: 1.7rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    border-bottom: 1px solid black;
+}
+.item1-main-left-brand-child p{
+    width: 70%;
+    /* border: 2px solid black;    */
+    display: flex;
+    align-items: center; 
+}
+.item1-main-left-brand-child input{
+    width: 15px;
+    cursor: pointer;
+}
+
+
+
+
 .item1-main-right{
     width: 77vw;
     height: 100%;
@@ -170,4 +252,12 @@
     font-size: 20px;
     font-weight: 700;
     border-radius: 5px;
+}
+.item1-main-right-btn button:hover{
+    width: 73%;
+    height: 43%;
+     font-size: 22px;
+    font-weight: 700;
+    color: white;
+    background-color: green;
 }

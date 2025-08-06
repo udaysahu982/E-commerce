@@ -15,6 +15,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 0px;
 }
 header p{
     color: white;
@@ -53,6 +54,11 @@ nav .logo{
     font-family: Calibri;
     margin-left: 30px;
 }
+.logo a{
+    text-decoration: none;
+    color: black;
+    cursor: default;
+}
 nav .icons{
     display: flex;
     gap: 30px;
@@ -64,6 +70,7 @@ nav .icons{
 .usl{
     display: flex;
 }
+
 nav .icons .usl p a{
     text-decoration: none;
     color: black;
@@ -380,7 +387,7 @@ nav .icons .usl p a{
     width: 100%;
     height: 70%;
     /* border: 2px solid black; */
-    background-image: url(image/tablet.avif);
+    background-image: url(image/tablet-1.avif);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 50%;
@@ -832,6 +839,8 @@ nav .icons .usl p a{
     background-size: contain;
     background-position:center;
     border-radius: 50%;
+    background-repeat: no-repeat;
+
 }
 .main7-img1:hover{
     background-size: 104%;
@@ -843,6 +852,8 @@ nav .icons .usl p a{
     background-size: contain;
     background-position:center;
     border-radius: 50%;
+    background-repeat: no-repeat;
+
 }
 .main7-img2:hover{
     background-size: 104%;
@@ -852,6 +863,7 @@ nav .icons .usl p a{
     height: 70%;
     background-image: url(image/phone1.avif);
     background-size: contain;
+    background-repeat: no-repeat;
     background-position:center;
     border-radius: 50%;
 }
@@ -865,6 +877,8 @@ nav .icons .usl p a{
     background-size: contain;
     background-position:center;
     border-radius: 50%;
+        background-repeat: no-repeat;
+
 }
 .main7-img4:hover{
     background-size: 104%;
@@ -1360,4 +1374,128 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+#check-bar i{
+    font-size: 25px;
+   /* display: none; */
+   position: absolute;
+   z-index: 1;
+   /* border: 2px solid black; */
+   text-align: right;
+   display: none;
+}
+#check{
+    display: none;
+}
+@media (max-width:430px) {
+        header ul{
+            display: none;
+        }
+        .usl{
+            display: none;
+        }
+        .icons i:nth-of-type(2){
+            display: none;
+        }
+        .menu{
+            display: none;
+        }
+        .menu ul{
+           display: none;
+          
+        } 
+        nav .logo{
+            font-size: 40px;
+            margin-left: 10px;
+        }
+        nav .icons{
+            margin-right: 60px;
+        }
+        #main .main-img .main-content{
+            font-size: 40px;
+        }
+        #main .main-img .main-text{
+            margin-top: 5%;
+            font-size: 24px;
+        }
+        .main-btn{
+            width: 40vw;
+            margin-top: 10%;
+            margin-left:30% ;
+        }
+        #main-2{
+    height: 170vh;
+    width: 100%;
+    flex-direction: column;
+    }
+    #main-2 .main2{
+        width: 100%;
+        margin-top: 10%;
+    }
+    #img1{
+    background-position: center;
+    }
+     #img2{
+    background-position: center;
+    }
+        
+
+
+
+        #check-bar i{
+            display: flex;
+            margin-top: 38px;
+            margin-left: 90%;
+            
+        }
+        #check:checked~.menu{
+            display: block;
+        }
+        #check:checked~.menu ul {
+            display: block;
+            position: absolute;
+            z-index: 10;  
+            width: 98%;
+            height: 50vh; 
+            text-align: center;
+            line-height: 30px;
+            background-color: black;
+            box-shadow: 5px 5px 10px beige;
+            margin-left: 2px;
+               
+     }
+     #check:checked~.menu ul li{
+        border-bottom: 1px solid white;
+        height: 34px;
+     }
+     #check:checked~.menu ul li a{
+        color: white;
+     }
+     #check:checked~ header p{
+        display: none;
+     }
+     #check:checked~ header{
+        position: absolute;
+        z-index: 10;
+        width: 98%;
+        height: 10vh;
+        margin-top: 370px;
+        margin-left: 2px;
+     }
+     #check:checked~ header ul{
+        display: flex;
+         gap: 0px;
+        margin-right: 0%;
+        margin-left: 10px;
+        cursor: pointer;
+        background-color: black;
+     }
+     #check:checked~ header ul li{
+        gap: 5px;
+        /* border: 2px solid wheat; */
+        margin-right: 15px;
+     }
+       
+      
+         
 }
