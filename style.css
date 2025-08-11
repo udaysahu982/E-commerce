@@ -128,14 +128,14 @@ nav .icons .usl p a{
     display: flex;
     width: 100%;
     height: 80vh;
-    background-image: url(image/photo4.jpg);
+    /* background-image: url(image/photo4.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right; 
     flex-direction: column;
     animation: main-img-change 10s infinite linear;
 }
-#main .main-img .red-text{
+#main .main-img .red-text{ 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1623,6 +1623,75 @@ footer{
         .main10-bottom input{
             width: 15px;
         }
+        .main-11{
+       height: 100vh;
+        }
+        .main11-box{
+            flex-direction: column;
+        }
+        .main11-content{
+         width: 100%;
+         height: 50%;
+         background-color: black;
+        }
+        .main11-img{
+       width: 100%;
+       height: 50%;
+       background-size: contain;
+       background-position: center;
+     }
+     .main11-contenthead {
+     font-size: 1.5rem;
+        padding-top: 6vh;
+        }
+    .main11-contenttext {
+     font-size: 1.2rem;
+     padding-left: 19.5vw;
+    }
+    .main11-btn {
+    width: 34vw;
+    height: 8vh;
+    margin-left: 21vw;
+    }
+    .footer-head {
+    font-size: 1.2rem;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 15px;
+}
+.footer-text a {
+    font-size: .8rem;
+}
+.footer-pay-child{
+    column-gap: 20px;
+    overflow-x: scroll;
+}
+.pay-img3{
+    display: none;
+} .pay-img7{
+    display: none;
+}
+ .pay-img8{
+    display: none;
+}
+.pay-img6{
+    display: none;
+}
+.pay-img1{
+    width: 20%;
+} 
+.pay-img2{
+   width: 20%;
+} 
+.pay-img5{
+    width: 20%;
+}
+ .pay-img4{
+    width: 20%;
+}
+
+  
 
         
 
@@ -1634,8 +1703,13 @@ footer{
             margin-left: 90%;
             
         }
+        #check:checked~#check-bar i{
+             margin-top: 20px;
+        }
         #check:checked~.menu{
             display: block;
+            top: 10px;
+
         }
         #check:checked~.menu ul {
             display: block;
