@@ -1487,32 +1487,62 @@ footer{
         .main5-content1{
             /* border: 2px solid black; */
             display: grid;
-            grid-template-columns: repeat(5,40vw);
+            grid-template-columns: repeat(5,60vw);
             overflow-x: scroll;
             scrollbar-width: none;
-            gap: 60px;
+            gap: 20px;
             
         }
         .main5-content1 .main5-child{
-            width: 55vw;
+            width: 60vw;
             height: 50vh;
             margin-left: 15px;
             padding-right: 10px;
         }
+        .main5-content1-img1{
+            height: 70%;
+        }
+        .main5-content1-img2{
+            height: 70%;
+        }
+        .main5-content1-img3{
+            height: 70%;
+        }
+        .main5-content1-img4{
+            height: 70%;
+        }
+        .main5-content1-img5{
+            height: 70%;
+        }
         .main5-content2{
             /* border: 2px solid black; */
             display: grid;
-            grid-template-columns: repeat(5,40vw);
+            grid-template-columns: repeat(5,60vw);
             overflow-x: scroll;
             scrollbar-width: none;
-            gap: 60px;
+            gap: 20px;
             
         }
         .main5-content2 .main5-child{
-            width: 125%;
+            width: 100%;
             height: 90%;
             margin-left: 15px;
             padding-right: 10px;
+        }
+        .main5-content2-img1{
+            height: 70%;
+        }
+        .main5-content2-img2{
+            height: 70%;
+        }
+        .main5-content2-img3{
+            height: 70%;
+        }
+        .main5-content2-img4{
+            height: 70%;
+        }
+        .main5-content2-img5{
+            height: 70%;
         }
         .main-6{
             height: 120vh;
@@ -1574,7 +1604,7 @@ footer{
         .main8-dis {
             display: flex;
             justify-content: center;
-            font-size: 5.5rem;
+            font-size: 4rem;
             margin-left: 2vw;
             margin-top: 11px;
             font-weight: 600;
@@ -1699,12 +1729,12 @@ footer{
 
         #check-bar i{
             display: flex;
-            margin-top: 38px;
+            margin-top: 35px;
             margin-left: 90%;
             
         }
         #check:checked~#check-bar i{
-             margin-top: 20px;
+             margin-top: 35px;
         }
         #check:checked~.menu{
             display: block;
@@ -1731,7 +1761,7 @@ footer{
      #check:checked~.menu ul li a{
         color: white;
      }
-     #check:checked~ header p{
+     /* #check:checked~ header p{
         display: none;
      }
      #check:checked~ header{
@@ -1741,21 +1771,21 @@ footer{
         height: 10vh;
         margin-top: 371px;
         margin-left: 2px;
-     }
-     #check:checked~ header ul{
+     } */
+     /* #check:checked~ header ul{
         display: flex;
          gap: 0px;
         margin-right: 0%;
         margin-left: 10px;
         cursor: pointer;
         background-color: black;
-     }
-     #check:checked~ header ul li{
+     } */
+     /* #check:checked~ header ul li{
         gap: 5px;
-        /* border: 2px solid wheat; */
+       
         margin-right: 15px;
      }
-       
+        */
       
          
 }
